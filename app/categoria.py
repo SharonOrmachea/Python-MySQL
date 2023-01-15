@@ -28,7 +28,7 @@ class CategoriaSchema(ma.Schema):
     class Meta:
         fields = ('cat_id', 'cat_nombre', 'cat_descripcion')
 
-# una sola respuesta
+# Una sola respuesta
 categoria_schema = CategoriaSchema()
 
 # Cuando sean muchas respuestas
